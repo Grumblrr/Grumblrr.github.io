@@ -7,11 +7,12 @@
 
 
 <body>
-  <p id='demo'>Hello HTML!</p>
+  <p id='demo' onclick="firstFunction()">Click Me!</p>
   <script>
-  document.getElementByID('demo').innerHTML = "Hello Javascript!";
+  function firstFunction() {
+    document.getElementByID('demo').innerHTML = "Hello Javascript!";
+  }
   </script>
 </body>
-
 
 </html>
