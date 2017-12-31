@@ -7,7 +7,7 @@
 
 
 <body>
-  <p id='demo' onclick="firstFunction()">Hello HTML!</p>
+  <p id='demo'>Script not yet loaded.</p>
 
   <button type='button' onclick="firstFunction()">Try It!</button>
   <br />
@@ -17,8 +17,12 @@
   <script src="FirstScript.js"></script>
 
   <script>
+  document.getElementById('demo').innerHTML = "Hello World!";
+
   function firstFunction() {
     document.getElementById('demo').innerHTML = "Hello Javascript!";
+
+  window.alert('Script loaded.')
   }
   </script>
 </body>
