@@ -1,13 +1,12 @@
-.parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
 
-    /* Set a specific height */
-    height: 500px;
+div.content {
+  text-align: center;
+  color: black;
+  background-color: skyblue;
+}
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+div.header {
+  text-align: center;
+  color: black;
+  background-color: white;
 }
