@@ -2,11 +2,21 @@
 div.content {
   text-align: center;
   color: black;
-  background-color: skyblue;
+  background-color: #ffaa00;
+  border-top: 10px solid #ffaa00;
+}
+
+body {
+  background-color: #ffaa00;
+  border-left: 10px solid red;
 }
 
 div.header {
   text-align: center;
   color: black;
   background-color: white;
+}
+
+h1 {
+  background-color: #faaaff;
 }
