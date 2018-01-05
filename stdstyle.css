@@ -11,12 +11,8 @@ body {
   border-left: 10px solid red;
 }
 
-div.header {
+header, div.header {
   text-align: center;
   color: black;
-  background-color: white;
-}
-
-h1 {
-  background-color: #faaaff;
+  background-color: #E0FFFF;
 }
