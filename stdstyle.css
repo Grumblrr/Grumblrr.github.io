@@ -6,6 +6,10 @@ div.content {
   border-top: 10px solid #ffaa00;
 }
 
+div.img {
+  border-bottom: 10px solid red
+}
+
 body {
   background-color: #ffaa00;
   border-left: 10px solid red;
