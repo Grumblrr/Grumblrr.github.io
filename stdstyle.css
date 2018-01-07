@@ -12,7 +12,7 @@ div.img {
   height: auto;
 }
 
-html {
+body {
   background-color: #ffaa00;
   border-left: 10px solid red;
 }
